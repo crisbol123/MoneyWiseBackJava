@@ -17,6 +17,7 @@ public class MovimientoEntity {
     private String fecha;
     private String categoria;
     private double monto;
+    private String tipoMovimiento;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "usuario_id")
     private UsuarioEntity usuario;

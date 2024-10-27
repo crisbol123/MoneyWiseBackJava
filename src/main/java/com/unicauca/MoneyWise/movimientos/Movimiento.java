@@ -15,8 +15,7 @@ public class Movimiento {
     private String fecha;
     private String categoria;
     private double monto;
-private Long usuarioId;
-
+    private String tipoMovimiento;
 }
 
 

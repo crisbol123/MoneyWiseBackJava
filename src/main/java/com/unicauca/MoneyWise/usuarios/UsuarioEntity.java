@@ -22,6 +22,7 @@ public class UsuarioEntity {
     private String telefono;
     private String nombre;
     private String rol;
+    private Double estadoDeCuenta;
 
 
 }
