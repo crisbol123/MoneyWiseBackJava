@@ -6,8 +6,8 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring")
 public interface UsuarioEntityMapper {
 
-    @Mapping(target = "id", ignore = true)
-@Mapping(target = "estadoDeCuenta", source = "estadoDeCuenta")
+   @Mapping(target = "id", ignore = true)
+    @Mapping(target = "estadoDeCuenta", source = "estadoDeCuenta")
     UsuarioEntity aEntidad(Usuario usuario);
     Usuario aUsuario(UsuarioEntity entity);
 
